@@ -31,5 +31,12 @@ public class Categoria implements Serializable {
         return activo;
     }
     
+    public Long getIdCategoria(){
+        return idCategoria;
+    }
+    
+    public void setRutaImagen(String rutaImagen){
+        this.rutaImagen = rutaImagen;
+    }
     
 }
